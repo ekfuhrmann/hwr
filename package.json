@@ -1,7 +1,7 @@
 {
   "name": "hwr",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hacking With React (Training)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,8 +13,29 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "babel": {
+    "presets": [
+        "es2015",
+        "react"
+    ]
+},
   "bugs": {
     "url": "https://github.com/ekfuhrmann/hwr/issues"
   },
-  "homepage": "https://github.com/ekfuhrmann/hwr#readme"
+  "homepage": "https://github.com/ekfuhrmann/hwr#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "history": "^4.3.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1"
+  }
 }
