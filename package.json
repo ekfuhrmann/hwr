@@ -15,10 +15,10 @@
   "license": "ISC",
   "babel": {
     "presets": [
-        "es2015",
-        "react"
+      "es2015",
+      "react"
     ]
-},
+  },
   "bugs": {
     "url": "https://github.com/ekfuhrmann/hwr/issues"
   },
@@ -33,6 +33,7 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
+    "chance": "^1.0.4",
     "history": "^4.3.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
